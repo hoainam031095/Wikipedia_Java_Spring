@@ -1,0 +1,112 @@
+body, ul, h1, h2, h3{
+	margin: 0;
+} 
+.wapper{
+	padding: 0px;
+}
+.container-no-margin{
+	margin:0;
+	width: 100%;
+}
+.body-left{
+	width: 13.2%;
+	height: 658px;
+	float: left;
+	/*border-right: 1px solid #a7d7f9;*/
+	text-align: center;
+	padding-top: 5px;
+	background-color: #f6f6f6;
+	position: fixed;
+}
+.body-left .list-category{
+	text-align: left;
+	padding-top: 5px;
+}
+.body-left .list-category ul{
+	margin-top: 20px;
+}
+
+.body-left .list-category li{
+	list-style: none;
+}
+.body-right{
+	width: 85%;
+	float: left;
+	height: 658px;
+	margin-left: 178px;
+}
+.body-right-header{
+	text-align: right;
+	}
+.body-right-header .menu-dangnhap{
+	height: 30px;
+    background-color: #fff;
+    padding-top: 4px;
+    padding-right: 6px;
+    padding-bottom: 32px;
+
+}
+.body-right-header li{
+	display: inline-block;
+    font-size: 12px;
+    padding: 1px 2px;
+
+}
+.main-menu{
+	padding: 0px 10px;
+    background-color: #f9f9f9;
+    box-shadow: inset 0px 7px 20px 0px #fff;
+    height: 45px;
+    border-bottom: 1px solid #a7d7f9;
+}
+.main-menu .main-menu-list{
+	float: left;
+    background-color: #edf4fa;
+    padding: 0px 5px;
+    border-bottom: 1px solid #a7d7f9;
+    box-shadow: inset 0px 7px 20px 0px #fff;
+    overflow: hidden;
+    max-width: 780px;
+    max-height: 45px;
+}
+.main-menu .main-menu-list ul{
+	padding: 0px;
+}
+.main-menu .main-menu-list li{
+	font-size: 15px;
+    padding: 6px 3px 5px 3px;
+    border-left: 1px solid #a7d7f9;
+    color: #0645ad;
+    margin-top: 12px;
+
+}
+.main-menu .list-khac{
+	float: left;
+    width: 47px;
+    margin-top: 19px;
+}
+.main-menu-seach{
+	float: right;
+	margin-top: 17px;
+	background-color: #fff;
+	border: 1px solid #a2a9b1;
+	border-radius: 2px;
+}
+.main-menu-seach input:focus{
+	outline: 0;
+}
+.main-menu-seach .input1{
+	width: 220px;
+    border: 0px;
+    /*border: 1px solid #00000045;*/
+}
+.main-menu-seach .input2{
+	border: 0;
+	width: 22px;
+	height: 22px;
+	background-image: url("seach.svg");
+    background-image: linear-gradient(transparent,transparent),
+    url("seach.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
